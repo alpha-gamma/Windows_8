@@ -1,0 +1,1 @@
+This repository contains all the codes related to my windows 8 desktop applications.

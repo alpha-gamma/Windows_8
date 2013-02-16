@@ -1,0 +1,83 @@
+﻿.homepage section[role=main] {
+    margin-left: 120px;
+}
+
+.pagetitle {
+    padding-left: 400px;
+}
+
+body {
+    background:url(/images/splashscreen.png) no-repeat;
+    background-position-x: center;
+    background-position-y: 150px;
+    background-color: red;
+    z-index:0;
+}
+
+#instruction {
+    /*border: 2px solid white;*/
+    visibility: hidden;
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 300px;
+    left:300px;
+    z-index:100;
+    background-color: red;
+    font-size:20px;
+}
+
+#myButton {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
+
+#mButton1 {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:300px;
+    /*position: absolute;
+    top: 350px;
+    left: 600px;*/
+}
+
+#instr {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 450px;
+    left: 560px;
+}
+
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: portrait) {
+    .homepage section[role=main] {
+        margin-left: 100px;
+    }
+}

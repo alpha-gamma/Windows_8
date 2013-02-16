@@ -1,0 +1,30 @@
+﻿#go {
+    font-size: 100px;
+    text-align: center;
+    top: 100px;
+    color: red;
+}
+
+#sc {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+#bscr {
+    font-size: 50px;
+    text-align: center;
+    color: goldenrod;
+}
+
+#again {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 550px;
+}

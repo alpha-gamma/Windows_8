@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="/pages/home/home.js"></script>
+
+    <script type="text/javascript">
+        function showin() {
+            document.getElementById("instruction").style.visibility = 'visible';
+        }
+
+    </script>
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment homepage">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <!--<span class="pagetitle">Ping Pong</span>-->
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <!--<p>Content goes here.</p>-->
+            <div>
+                <input id="myButton" type="button" value="Play!" onclick="WinJS.Navigation.navigate('/pages/game/game.html')" />
+                <input id="instr" type="button" value="Instructions" onclick="showin()"/>
+
+               <div id="instruction">
+                   <b>Aim</b><br />
+                   The aim of the game is to keep the ball in the play area and do not let it move out of the area either from left or right.
+                   <br /><br />
+                   <b>Scoring</b><br />
+                   For every save by the paddle you will receive 10 points.<br />
+                   As the score increases, the speed of the ball increases making it difficult to control.
+                   <br /><br />
+                   <b>Controls</b><br />
+                   Control the paddles by mouse or by touch pointer in touch enabled devices.
+                   <br /><br />
+                   <input id="mButton1" type="button" value="Play!" onclick="WinJS.Navigation.navigate('/pages/game/game.html')" />
+
+                </div>
+                 
+            </div>
+        </section>
+
+        
+        
+    </div>
+    
+</body>
+</html>

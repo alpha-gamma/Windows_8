@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="aakashgoel.BestQuote" Publisher="" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Best Quote</DisplayName>
+    <PublisherDisplayName>aakashgoel</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="App1.App">
+      <VisualElements DisplayName="Best Quote" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Want to motivate your life towards dream, get inspiration now.. Best collected Quotes over a lifetime are guaranteed to provide you a motivation which leaves you warm and inspired to do something great in your life. Decorate your Live Tile with random quotes. Share quotes on Twitter or Facebook or send them via email." ForegroundText="light" BackgroundColor="#000000" ToastCapable="false">
+        <DefaultTile ShowName="wideLogoOnly" WideLogo="Assets\widelogo.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
